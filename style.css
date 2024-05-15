@@ -1,0 +1,143 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color:black;
+    height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* cabeçalho  */
+header{
+    padding: 40px 4%;
+}
+
+header> .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(132, 132, 132);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: white;
+    transform: scale(1.04);
+
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block ;
+    padding: 0 40px;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(98, 212, 230);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #00ff08;
+    transform: scale(1.05);
+}
+
+/* estilo topo do site   */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+section.topo-dp-site .flex{
+    align-items: center;
+    justify-content: center;
+}
+.topo-do-site h1{
+    color: white;
+    font-size: 40px;
+}
+.topo-do-site .txt-topo-site p{
+    color: #ffff;
+    margin: 40px 0;
+    font-size: 15px;
+}
+/*estilo do sobre*/
+
+section.sobre{
+    padding: 40px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60;
+}
+
+.sobre .txt-sobre {
+    color: #ffff;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.sobre .txt-sobre h2 span{
+    color:turquoise;
+    display: block;
+}
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align:justify ;
+}
+
+/*estilo do FORMULÁRIO*/
+.txt-formulario h2{
+    color: white;
+   
+}
+section.formulario{
+    padding: 80PX 4%;
+    
+
+}
+form{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+form input, form textarea{
+    width: 100%;
+    background-color: rgb(69, 69, 69);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #ffff;
+    font-size: 18px;
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
